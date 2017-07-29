@@ -1,6 +1,6 @@
 {
     "agsUrl": "https://arcgis:6443/arcgis/admin",
-    "verifyCerts": "//etc//pki//ca-trust//extracted//pem//tls-ca-bundle.pem",
+    "verifyCerts": "Z://etc//pki//ca-trust//extracted//pem//tls-ca-bundle.pem",
     "dataSources": [ 
         {
             "name": "slap-test",
