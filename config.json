@@ -1,5 +1,6 @@
 {
     "agsUrl": "https://arcgis:6443/arcgis/admin",
+    "verifyCerts": true,
     "dataSources": [ 
         {
             "name": "slap-test",
