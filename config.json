@@ -1,0 +1,22 @@
+{
+    "agsUrl": "https://arcgis:6443/arcgis/admin",
+    "dataSources": [ 
+        {
+            "name": "slap-test",
+            "serverPath": "slap-test.gdb",
+            "clientPath": "slap-test.gdb"
+        }
+    ],
+    "mapServices": {
+        "services": [
+            {
+                "input": "slap-test.mxd",
+                "folderName": "SlapDemo",
+                "copyDataToServer": false,
+                "serviceName": "CapitolsTest",
+                "json": { "schemaLockingEnabled": true }
+            }
+        ]
+    }
+}
+
