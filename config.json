@@ -22,7 +22,7 @@
     "gpServices": {
 	"services": [
 	    {
-                "input": "",
+                "input": "gp/test.pyt",
 		"result": "gp/test.rlt",
 		"serviceName": "SlapGPTest"
 	    }
