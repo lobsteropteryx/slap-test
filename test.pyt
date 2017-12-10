@@ -4,7 +4,7 @@ import arcpy
 class Toolbox(object):
     def __init__(self):
         self.label = "Slap Test"
-        self.alias = "slap test"
+        self.alias = "slaptest"
 
         # List of tool classes associated with this toolbox
         self.tools = [SlapTest]
