@@ -22,7 +22,8 @@
     "gpServices": {
 	"services": [
 	    {
-                "result": "gp/test.rlt",
+                "input": "",
+		"result": "gp/test.rlt",
 		"serviceName": "SlapGPTest"
 	    }
 	]
