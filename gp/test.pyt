@@ -32,14 +32,11 @@ class SlapTest(object):
             parameterType="Derived",
             direction="Output")
 
-        out_features.parameterDependencies = [in_features.name]
-        out_features.schema.clone = True
-
         return [in_features, out_features]
 
     def execute(self, parameters, messages):
         features = parameters[0].valueAsText
-        result = result = arcpy.GetCount_management(features)
+        result = arcpy.GetCount_management(features)
         count = int(result.getOutput(0))
         arcpy.SetParameter(1, count)
         arcpy.AddMessage("Slap test completed successfully")
