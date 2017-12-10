@@ -24,7 +24,8 @@
 	    {
                 "input": "gp/test.pyt",
 		"result": "gp/test.rlt",
-		"serviceName": "SlapGPTest"
+		"serviceName": "SlapGPTest",
+		"copyDataToServer": true
 	    }
 	]
     }
