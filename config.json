@@ -23,7 +23,7 @@
 	"services": [
 	    {
                 "input": "gp/test.pyt",
-		"result": "gp/test.rlt",
+		"result": "gp\\test.rlt",
 		"serviceName": "SlapGPTest",
 		"copyDataToServer": true
 	    }
