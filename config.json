@@ -1,7 +1,7 @@
 {
     "agsUrl": "https://arcgis:6443/arcgis/admin",
     "verifyCerts": "Z://etc//pki//ca-trust//extracted//pem//tls-ca-bundle.pem",
-    "dataSources": [ 
+    "dataSources": [
         {
             "name": "slap-test",
             "serverPath": "slap-test.gdb",
@@ -18,6 +18,20 @@
                 "json": { "schemaLockingEnabled": true }
             }
         ]
+    },
+    "gpServices": {
+	"services": [
+	    {
+                "input": "slap-test.tbx",
+		"result": "slap-test.rlt",
+		"serviceName": "SlapGPTestTbx"
+	    },
+	    {
+                "input": "test.pyt",
+		"result": "test.rlt",
+		"serviceName": "SlapGPTestPyt"
+	    }
+	]
     }
 }
 
