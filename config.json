@@ -22,10 +22,9 @@
     "gpServices": {
 	"services": [
 	    {
-                "input": "gp/test.pyt",
-		"result": "gp\\test.rlt",
-		"serviceName": "SlapGPTest",
-		"copyDataToServer": true
+                "input": "test.pyt",
+		"result": "test.rlt",
+		"serviceName": "SlapGPTest"
 	    }
 	]
     }
