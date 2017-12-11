@@ -22,9 +22,14 @@
     "gpServices": {
 	"services": [
 	    {
+                "input": "slap-test.tbx",
+		"result": "slap-test.rlt",
+		"serviceName": "SlapGPTestTbx"
+	    },
+	    {
                 "input": "test.pyt",
 		"result": "test.rlt",
-		"serviceName": "SlapGPTest"
+		"serviceName": "SlapGPTestPyt"
 	    }
 	]
     }
